@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Guía interactiva para la preparación del examen COMIPEMS con simuladores por materia.">
+    <meta name="author" content="">
+
+    <title>Guía Interactiva del Examen de la COMIPEMS</title>
+
+    <!-- Lato Font -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            /* Establece la altura del html y body al 100% */
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            /* Acomoda los elementos en una columna */
+            background-color: rgb(36 36 36 / 1);
+            color: white;
+        }
+
+        main {
+            flex: 1 0 auto;
+            /* Permite que el main ocupe el espacio necesario */
+        }
+
+        footer {
+            flex-shrink: 0;
+            /* Evita que el footer se reduzca */
+        }
+
+        .card-panel {
+            background-color: rgba(28, 28, 28, 0.9);
+        }
+
+        body a {
+            color: rgb(179, 100, 216) !important;
+        }
+
+        body a:hover {
+            color: rgb(158, 88, 190) !important;
+        }
+
+        .card.horizontal {
+            /*background-color: #1E2026;*/
+            background-color: #333333;
+        }
+
+        .modal {
+            background-color: #363131 !important;
+        }
+
+        .modal-footer {
+            background-color: inherit !important;
+            border-top: 1px solid rgba(160, 160, 160, 0.2) !important;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            /* Reduce el tamaño del título */
+        }
+
+        .brand-logo {
+            position: absolute;
+            left: 15px;
+            transform: translateX(0%);
+        }
+
+        header,
+        footer,
+        .nav-extended {
+            background: linear-gradient(to right, #4a148c, #7b1fa2);
+            /* De un morado oscuro a un morado más claro */
+        }
+
+        header,
+        footer,
+        .nav-extended {
+            background-color: #4a148c;
+            /* Color de fondo */
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C27B0' fill-opacity='0.4'%3E%3Cpath d='M50 0L100 50H0z'/%3E%3C/g%3E%3C/svg%3E");
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar and Header -->
+    <nav class="nav-extended purple darken-4">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo" style="font-size: 1rem;"><i class="material-icons">school</i>COMIPEMS</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <!--<ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#">Simuladores</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>-->
+        </div>
+        <div class="nav-content center">
+            <h1>Guía Interactiva del Examen de la COMIPEMS</h1>
+            <p class="flow-text">¡Tu preparación empieza aquí!</p>
+        </div>
+    </nav>
+    <!--<ul class="sidenav" id="mobile-nav">
+    <li><a href="#">Simuladores</a></li>
+    <li><a href="#">Contacto</a></li>
+</ul>-->
+
+    <!-- Main Content Area -->
+    <div class="container">
+        <div class="row">
+            <br />
+            <!-- Tarjetas para cada materia como enlaces a los simuladores -->
+            <div class="col s12 m12">
+                <div class="card horizontal hoverable">
+                    <div class="card-image">
+                        <img src="./assets/img/card1.jpg">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p>Matemáticas</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#modal-05d99f55-410f-40d4-8e29-5fa80014097a" class="modal-trigger">Acceder</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin row -->
+        </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal-05d99f55-410f-40d4-8e29-5fa80014097a" class="modal">
+        <div class="modal-content">
+            <h4>¡Estamos trabajando para ti!</h4>
+            <p>Actualmente, esta sección está en desarrollo, pero muy pronto estará disponible para brindarte una
+                experiencia completa y satisfactoria. Agradecemos tu paciencia y entusiasmo. ¡Mantente atento para las
+                actualizaciones!</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Aceptar</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer purple darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h5 class="white-text">Prepárate eficientemente con nuestros simuladores</h5>
+                    <!--<p class="grey-text text-lighten-4">Prepárate eficientemente con nuestros simuladores.</p>-->
+                    <p class="grey-text text-lighten-4">&copy; 2024 Guía Interactiva COMIPEMS. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+
+            var modals = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(modals, {});
+
+            var triggers = document.querySelectorAll('.modal-trigger');
+
+            /*triggers.forEach(function(trigger) {
+                trigger.addEventListener('click', function(event) {
+                    event.preventDefault(); // Previene la acción por defecto del enlace (navegar a la URL)
+                    $('.modal').modal();
+        
+                });
+            });*/
+        });
+    </script>
+
+</body>
+
+</html>

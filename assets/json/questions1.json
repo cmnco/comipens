@@ -1,0 +1,502 @@
+[
+    {
+        "id": 1,
+        "ask": "¿Cuál es el valor de \"y\" en el siguiente sistema?",
+        "expression": "\\(x + 3y = 9\\) <br /> \\(2x + y = 8\\)",
+        "options": [
+            {
+                "text": "2",
+                "value": "2"
+            },
+            {
+                "text": "3",
+                "value": "3"
+            },
+            {
+                "text": "1",
+                "value": "1"
+            },
+            {
+                "text": "4",
+                "value": "4"
+            }
+        ],
+        "answer": "2",
+        "verified": true
+    },
+    {
+        "id": 2,
+        "ask": "¿Cuál es el valor de \"x\" en el siguiente sistema?",
+        "expression": "\\(x + y = 5\\) <br /> \\(2x + 4y = 14\\)",
+        "options": [
+            {
+                "text": "1",
+                "value": "1"
+            },
+            {
+                "text": "3",
+                "value": "3"
+            },
+            {
+                "text": "4",
+                "value": "4"
+            },
+            {
+                "text": "2",
+                "value": "2"
+            }
+        ],
+        "answer": "3",
+        "verified": true
+    },
+    {
+        "id": 3,
+        "ask": "¿Cuál es el valor de \"y\" en el siguiente sistema?",
+        "expression": "\\(3x + 2y = 7\\) <br /> \\(x - 4y = 13\\)",
+        "options": [
+            {
+                "text": "\\(2/3\\)",
+                "value": "A"
+            },
+            {
+                "text": "\\(-16/7\\)",
+                "value": "B"
+            },
+            {
+                "text": "\\(16/7\\)",
+                "value": "C"
+            },
+            {
+                "text": "\\(32/7\\)",
+                "value": "D"
+            }
+        ],
+        "answer": "B",
+        "verified": true
+    },
+    {
+        "id": 4,
+        "ask": "¿Cuál es el valor de \"x\" en el siguiente sistema?",
+        "expression": "\\(4x - y = 11\\) <br /> \\(2x + 2y = 8\\)",
+        "options": [
+            {
+                "text": "5",
+                "value": "A"
+            },
+            {
+                "text": "3",
+                "value": "B"
+            },
+            {
+                "text": "4",
+                "value": "C"
+            },
+            {
+                "text": "1",
+                "value": "D"
+            }
+        ],
+        "answer": "B",
+        "verified": true
+    },
+    {
+        "id": 5,
+        "ask": "¿Cuál es el valor de \"y\" en el siguiente sistema?",
+        "expression": "\\(5x + 3y = 28\\) <br /> \\(x + 2y = 11\\)",
+        "options": [
+            {
+                "text": "\\(7/27\\)",
+                "value": "A"
+            },
+            {
+                "text": "\\(27/5\\)",
+                "value": "B"
+            },
+            {
+                "text": "\\(27/7\\)",
+                "value": "C"
+            },
+            {
+                "text": "\\(-28/7\\)",
+                "value": "D"
+            }
+        ],
+        "answer": "C",
+        "verified": true
+    },
+    {
+        "id": 6,
+        "ask": "La suma de un número con el triple de otro es 18; y la diferencia del primero con el doble del segundo es 8. ¿Cuáles son esos números?",
+        "expression": "",
+        "options": [
+            {
+                "text": "24 y -2",
+                "value": "A"
+            },
+            {
+                "text": "24 y 2",
+                "value": "B"
+            },
+            {
+                "text": "12 y 2",
+                "value": "C"
+            },
+            {
+                "text": "12 y -2",
+                "value": "D"
+            }
+        ],
+        "answer": "C",
+        "verified": true
+    },
+    {
+        "id": 7,
+        "ask": "¿Cuál es el valor de \"y\" en el siguiente sistema?",
+        "expression": "\\(2x + y = 7\\) <br /> \\(4x - 3y = 5\\)",
+        "options": [
+            {
+                "text": "\\(13/5\\)",
+                "value": "A"
+            },
+            {
+                "text": "\\(9/5\\)",
+                "value": "B"
+            },
+            {
+                "text": "\\(7/2\\)",
+                "value": "C"
+            },
+            {
+                "text": "\\(11/3\\)",
+                "value": "D"
+            }
+        ],
+        "answer": "B",
+        "verified": true
+    },
+    {
+        "id": 8,
+        "ask": "¿Cuál es el valor de \"x\" en el siguiente sistema?",
+        "expression": "\\(x + 4y = 17\\) <br /> \\(2x - 2y = 6\\)",
+        "options": [
+            {
+                "text": "\\(14/5\\)",
+                "value": "14/5"
+            },
+            {
+                "text": "\\(11/5\\)",
+                "value": "11/5"
+            },
+            {
+                "text": "\\(29/5\\)",
+                "value": "29/5"
+            },
+            {
+                "text": "\\(27/5\\)",
+                "value": "27/5"
+            }
+        ],
+        "answer": "29/5",
+        "verified": true
+    },
+    {
+        "id": 9,
+        "ask": "¿Cuál es el valor de \"y\" en el siguiente sistema?",
+        "expression": "\\(x + 2y = 14\\) <br /> \\(3x - y = 5\\)",
+        "options": [
+            {
+                "text": "\\(27/7\\)",
+                "value": "A"
+            },
+            {
+                "text": "\\(4/7\\)",
+                "value": "B"
+            },
+            {
+                "text": "\\(7/4\\)",
+                "value": "C"
+            },
+            {
+                "text": "\\(47/7\\)",
+                "value": "D"
+            }
+        ],
+        "answer": "D",
+        "verified": true
+    },
+    {
+        "id": 10,
+        "ask": "¿Cuál es el valor de \"x\" en el siguiente sistema?",
+        "expression": "\\(3x + 4y = 25\\) <br /> \\(x - 2y = 0\\)",
+        "options": [
+            {
+                "text": "12",
+                "value": "A"
+            },
+            {
+                "text": "10",
+                "value": "B"
+            },
+            {
+                "text": "8",
+                "value": "C"
+            },
+            {
+                "text": "5",
+                "value": "D"
+            }
+        ],
+        "answer": "D",
+        "verified": true
+    },
+    {
+        "id": 11,
+        "ask": "¿Cuál es el valor de \"y\" en el siguiente sistema?",
+        "expression": "\\(2x + 3y = 23\\) <br /> \\(x - y = 3\\)",
+        "options": [
+            {
+                "text": "\\(17/5\\)",
+                "value": "A"
+            },
+            {
+                "text": "\\(32/5\\)",
+                "value": "B"
+            },
+            {
+                "text": "\\(18/5\\)",
+                "value": "C"
+            },
+            {
+                "text": "\\(23/5\\)",
+                "value": "D"
+            }
+        ],
+        "answer": "A",
+        "verified": true
+    },
+    {
+        "id": 12,
+        "ask": "¿Cuál es el valor de \"x\" en el siguiente sistema?",
+        "expression": "\\(x + 5y = 10\\) <br /> \\(2x + 3y = 12\\)",
+        "options": [
+            {
+                "text": "\\(15/7\\)",
+                "value": "A"
+            },
+            {
+                "text": "\\(30/7\\)",
+                "value": "B"
+            },
+            {
+                "text": "\\(-30/7\\)",
+                "value": "C"
+            },
+            {
+                "text": "\\(8/7\\)",
+                "value": "D"
+            }
+        ],
+        "answer": "B",
+        "verified": true
+    },
+    {
+        "id": 13,
+        "ask": "¿Cuál es el valor de \"y\" en el siguiente sistema?",
+        "expression": "\\(4x + 2y = 20\\) <br /> \\(x + 3y = 15\\)",
+        "options": [
+            {
+                "text": "5",
+                "value": "5"
+            },
+            {
+                "text": "4",
+                "value": "4"
+            },
+            {
+                "text": "3",
+                "value": "3"
+            },
+            {
+                "text": "2",
+                "value": "2"
+            }
+        ],
+        "answer": "4",
+        "verified": true
+    },
+    {
+        "id": 14,
+        "ask": "¿Cuál es el valor de \"x\" en el siguiente sistema?",
+        "expression": "\\(x - y = 9\\) <br /> \\(2x + 2y = 14\\)",
+        "options": [
+            {
+                "text": "-1",
+                "value": "A"
+            },
+            {
+                "text": "14",
+                "value": "B"
+            },
+            {
+                "text": "8",
+                "value": "C"
+            },
+            {
+                "text": "9",
+                "value": "D"
+            }
+        ],
+        "answer": "C",
+        "verified": true
+    },
+    {
+        "id": 15,
+        "ask": "¿Cuál es el valor de \"y\" en el siguiente sistema?",
+        "expression": "\\(3x + 2y = 12\\) <br /> \\(x + 4y = 14\\)",
+        "options": [
+            {
+                "text": "4",
+                "value": "4"
+            },
+            {
+                "text": "3",
+                "value": "3"
+            },
+            {
+                "text": "2",
+                "value": "2"
+            },
+            {
+                "text": "1",
+                "value": "1"
+            }
+        ],
+        "answer": "3",
+        "verified": true
+    },
+    {
+        "id": 16,
+        "ask": "¿Cuál es el valor de \"x\" en el siguiente sistema?",
+        "expression": "\\(5x - 3y = 7\\) <br /> \\(3x + y = 9\\)",
+        "options": [
+            {
+                "text": "\\(12/7\\)",
+                "value": "A"
+            },
+            {
+                "text": "\\(-12/7\\)",
+                "value": "B"
+            },
+            {
+                "text": "\\(24/5\\)",
+                "value": "C"
+            },
+            {
+                "text": "\\(17/7\\)",
+                "value": "D"
+            }
+        ],
+        "answer": "D",
+        "verified": true
+    },
+    {
+        "id": 17,
+        "ask": "Una máquina llena 150 botellas en 20 minutos. A esta misma razón, ¿Cuántos minutos tardará el llenado de 60 botellas?",
+        "expression": "",
+        "options": [
+            {
+                "text": "4",
+                "value": "A"
+            },
+            {
+                "text": "6",
+                "value": "B"
+            },
+            {
+                "text": "8",
+                "value": "C"
+            },
+            {
+                "text": "10",
+                "value": "D"
+            }
+        ],
+        "answer": "C",
+        "verified": true
+    },
+    {
+        "id": 18,
+        "ask": "¿Cuál es el valor de \"x\" en el siguiente sistema?",
+        "expression": "\\(2x + y = 10\\) <br /> \\(4x - y = 6\\)",
+        "options": [
+            {
+                "text": "\\(8/3\\)",
+                "value": "A"
+            },
+            {
+                "text": "\\(16/3\\)",
+                "value": "B"
+            },
+            {
+                "text": "\\(14/3\\)",
+                "value": "C"
+            },
+            {
+                "text": "\\(8/6\\)",
+                "value": "D"
+            }
+        ],
+        "answer": "A",
+        "verified": true
+    },
+    {
+        "id": 19,
+        "ask": "¿Cuál es el valor de \"y\" en el siguiente sistema?",
+        "expression": "\\(x - y = 1\\) <br /> \\(3x + y = 11\\)",
+        "options": [
+            {
+                "text": "2",
+                "value": "2"
+            },
+            {
+                "text": "3",
+                "value": "3"
+            },
+            {
+                "text": "4",
+                "value": "4"
+            },
+            {
+                "text": "5",
+                "value": "5"
+            }
+        ],
+        "answer": "2",
+        "verified": true
+    },
+    {
+        "id": 20,
+        "ask": "¿Cuál es el valor de \"x\" en el siguiente sistema?",
+        "expression": "\\(2x - 3y = 0\\) <br /> \\(x + 2y = 12\\)",
+        "options": [
+            {
+                "text": "\\(7/24\\)",
+                "value": "7/24"
+            },
+            {
+                "text": "\\(36/7\\)",
+                "value": "36/7"
+            },
+            {
+                "text": "\\(7/36\\)",
+                "value": "7/36"
+            },
+            {
+                "text": "\\(24/7\\)",
+                "value": "24/7"
+            }
+        ],
+        "answer": "36/7",
+        "verified": true
+    }
+]

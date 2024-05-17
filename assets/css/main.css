@@ -1,0 +1,125 @@
+html,
+body {
+    height: 100%;
+    /* Establece la altura del html y body al 100% */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* Acomoda los elementos en una columna */
+
+    color: white;
+    background-color: rgba(36, 36, 36, 1);
+    /*background-image: url('./assets/img/background2.jpg'); /* Asegúrate de cambiar 'tu-imagen.jpg' por la URL correcta */
+    /*background-position: center center;
+            background-size: cover;
+            
+            opacity: 0.3;*/
+}
+
+main {
+    flex: 1 0 auto;
+    /* Permite que el main ocupe el espacio necesario */
+}
+
+footer {
+    flex-shrink: 0;
+    /* Evita que el footer se reduzca */
+}
+
+.card-panel {
+    background-color: rgba(28, 28, 28, 0.9);
+}
+
+body a {
+    /*color: rgb(179, 100, 216) !important;*/
+    color: rgb(179, 100, 216) !important;
+    /*font-weight: bold !important;*/
+}
+
+body a:hover {
+    color: rgb(158, 88, 190) !important;
+}
+
+.card.horizontal {
+    /*background-color: #1E2026;*/
+    background-color: #333333;
+}
+
+.modal {
+    background-color: #363131 !important;
+}
+
+.modal-footer {
+    background-color: inherit !important;
+    border-top: 1px solid rgba(160, 160, 160, 0.2) !important;
+}
+
+h1 {
+    font-size: 2.8rem;
+    /* Reduce el tamaño del título */
+}
+
+.brand-logo {
+    position: absolute;
+    left: 15px;
+    transform: translateX(0%);
+}
+
+.color-purple {
+    color: rgb(179, 100, 216) !important;
+}
+
+header,
+footer,
+.nav-extended {
+    background: linear-gradient(to right, #4a148c, #7b1fa2);
+    /* De un morado oscuro a un morado más claro */
+}
+
+header,
+footer,
+.nav-extended {
+    background-color: #4a148c;
+    /* Color de fondo */
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C27B0' fill-opacity='0.4'%3E%3Cpath d='M50 0L100 50H0z'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover;
+}
+
+.card-image img {
+    transition: transform 0.5s ease;
+    /* Duración y tipo de transición */
+    transform-origin: center;
+    /* Punto desde el cual se realiza la transformación */
+    display: block;
+    /* Elimina cualquier espacio extra alrededor de la imagen */
+}
+
+.card.horizontal:hover .card-image img {
+    transform: scale(1.2) rotate(5deg);
+    /* Aumenta el tamaño y rota la imagen */
+}
+
+.card-image {
+    overflow: hidden;
+    /* Evita que la imagen salga de los límites del contenedor de la imagen */
+}
+
+.btn,
+.timer,
+.btn:focus {
+    background-color: rgb(179, 100, 216);
+}
+
+.btn:hover {
+    background-color: rgb(161, 42, 221);
+}
+
+.timer {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}

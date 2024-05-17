@@ -1,0 +1,240 @@
+[
+    {
+        "id": 21,
+        "ask": "¿Cuál es la solución correcta del siguiente binomio al cuadrado? \\((3x + 6y)^2\\)",
+        "img": "",
+        "expression": "",
+        "options": [
+            { "text": "\\(9x^2+36xy^2+36y^2\\)", "value": "A" },
+            { "text": "\\(9x^2+36xy+36y^2\\)", "value": "B" },
+            { "text": "\\(3x^2+18xy+6y^2\\)", "value": "C" },
+            { "text": "\\(9x^2+18xy^2+36y^2\\)", "value": "D" }
+        ],
+        "answer": "B",
+        "verified": true
+    },
+    {
+        "id": 22,
+        "ask": "¿Cuál es la solución del siguiente binomio conjugado? \\((2x+3y)(2x-3y)\\)",
+        "expression": "",
+        "img": "",
+        "options": [
+            { "text": "\\(4x^2-12xy+9y^2\\)", "value": "A" },
+            { "text": "\\(4x^2+12xy+9y^2\\)", "value": "B" },
+            { "text": "\\(4x^2+9y^2\\)", "value": "C" },
+            { "text": "\\(4x^2-9y^2\\)", "value": "D" }
+        ],
+        "answer": "D",
+        "verified": true
+    },
+    {
+        "id": 23,
+        "ask": "Una factorización de la expresión \\(2x^2-7x+3=0\\), es:",
+        "expression": "",
+        "img": "",
+        "options": [
+            { "text": "\\(x_1\\) = 3, \\(x_2\\) = \\(1/2\\)", "value": "A" },
+            { "text": "\\(x_1\\) = 2, \\(x_2\\) = \\(1/3\\)", "value": "B" },
+            { "text": "\\(x_1\\) = -2, \\(x_2\\) = \\(2/3\\)", "value": "C" },
+            { "text": "\\(x_1\\) = 4, \\(x_2\\) = \\(3/4\\)", "value": "D" }
+        ],
+        "answer": "A",
+        "verified": true
+    },
+    {
+        "id": 24,
+        "ask": "En una empresa se manejan diferentes tipos de unidades de medida para las cajas. Las cajas \"sin\" pueden contener 16 paquetes. Cada caja \"can\" puede albergar 5 cajas \"sin\", y cada caja \"dock\" puede contener 3 cajas \"can\". Si un embarque incluye 4 cajas \"sin\", 2 cajas \"can\" y 6 cajas \"dock\", ¿cuántos paquetes en total llegaron?",
+        "expression": "",
+        "img": "",
+        "options": [
+            { "text": "1514", "value": "A" },
+            { "text": "1468", "value": "B" },
+            { "text": "1259", "value": "C" },
+            { "text": "1664", "value": "D" }
+        ],
+        "answer": "D",
+        "verified": true
+    },
+    {
+        "id": 25,
+        "ask": "¿Qué números continúan en la siguiente sucesión?",
+        "expression": "50, 13, 40, 11, 30, 9,_ ,_ , ... ",
+        "img": "",
+        "options": [
+            {
+                "text": "20, 6",
+                "value": "A"
+            },
+            {
+                "text": "20, 7",
+                "value": "B"
+            },
+            {
+                "text": "20, 8",
+                "value": "C"
+            },
+            {
+                "text": "10, 6",
+                "value": "D"
+            }
+        ],
+        "answer": "B",
+        "verified": true
+    },
+    {
+        "id": 26,
+        "ask": "El número que sigue en la sucesión",
+        "expression": "1, 3, 9, 11, 33, 35, __ es:",
+        "img": "",
+        "options": [
+            {
+                "text": "105",
+                "value": "A"
+            },
+            {
+                "text": "46",
+                "value": "B"
+            },
+            {
+                "text": "44",
+                "value": "C"
+            },
+            {
+                "text": "38",
+                "value": "D"
+            }
+        ],
+        "answer": "A",
+        "verified": true
+    },
+    {
+        "id": 27,
+        "ask": "Encuentra los términos que continúan la sucesión.",
+        "expression": "2, 11, 12, 14, 72, 17, __, __, ...",
+        "img": "",
+        "options": [
+            {
+                "text": "432, 20",
+                "value": "A"
+            },
+            {
+                "text": "430, 21",
+                "value": "B"
+            },
+            {
+                "text": "360, 19",
+                "value": "C"
+            },
+            {
+                "text": "432, 23",
+                "value": "D"
+            }
+        ],
+        "answer": "A",
+        "verified": true
+    },
+    {
+        "id": 28,
+        "ask": "¿Qué números completan la secuencia de la cadena?",
+        "expression": "20, 15, 19, 18, 17, 24, 14, ?, ?",
+        "img": "",
+        "options": [
+            {
+                "text": "30, 10",
+                "value": "A"
+            },
+            {
+                "text": "33, 10",
+                "value": "B"
+            },
+            {
+                "text": "33, 12",
+                "value": "C"
+            },
+            {
+                "text": "36, 13",
+                "value": "D"
+            }
+        ],
+        "answer": "B",
+        "verified": true
+    },
+    {
+        "id": 29,
+        "ask": "¿Cuál es el número que falta en el último triángulo?",
+        "expression": "",
+        "img": ".\\assets\\img\\questions\\29.png",
+        "options": [
+            {
+                "text": "13",
+                "value": "A"
+            },
+            {
+                "text": "23",
+                "value": "B"
+            },
+            {
+                "text": "24",
+                "value": "C"
+            },
+            {
+                "text": "31",
+                "value": "D"
+            }
+        ],
+        "answer": "C",
+        "verified": true
+    },
+    {
+        "id": 30,
+        "ask": "¿Cuál es el número que falta en el siguiente cuadro?",
+        "expression": "",
+        "img": ".\\assets\\img\\questions\\30.png",
+        "options": [
+            {
+                "text": "10",
+                "value": "A"
+            },
+            {
+                "text": "12",
+                "value": "B"
+            },
+            {
+                "text": "16",
+                "value": "C"
+            },
+            {
+                "text": "18",
+                "value": "D"
+            }
+        ],
+        "answer": "A",
+        "verified": true
+    },
+    {
+        "id": 31,
+        "ask": "Una bicicleta tiene un precio de $4,600, se compra dando un enganche de $1,800 y pagando el resto en 5 abonos mensuales ¿de cuánto deberá ser cada pago?",
+        "expression": "",
+        "img": "",
+        "options": [
+            {
+                "text": "$360",
+                "value": "A"
+            },
+            {
+                "text": "$560",
+                "value": "B"
+            },
+            {
+                "text": "$630",
+                "value": "C"
+            },
+            {
+                "text": "$920",
+                "value": "D"
+            }
+        ],
+        "answer": "B",
+        "verified": true
+    }
+]

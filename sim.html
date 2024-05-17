@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación Matemática</title>
+    <!-- Compiled and minified CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./assets/css/main.css?v=1.0.1" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: white;
+            font-size: 1.8em;
+        }
+
+        #questionDisplay label span {
+            font-size: 1.5rem;
+        }
+        [type="radio"]:disabled+span {
+            color:gray;
+        }
+        [type="radio"]:disabled:not(:checked)+span:before {
+            border-color:gray;
+        }
+        [type="radio"]:disabled:checked+span:after {
+            background-color: #26a69a;
+            border-color: #949494;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar and Header -->
+    <nav class="nav-extended purple darken-4">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo" style="font-size: 1rem;"><i class="material-icons">school</i>COMIPEMS</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a id="endBtn" data-target="exitModal" class="modal-trigger">Salir Examen</a></li>
+            </ul>
+        </div>
+        <div class="nav-content center">
+            <h3>Guía Interactiva del Examen de la COMIPEMS</h3>
+            <p class="flow-text">Simulador - Área: Matemáticas </p>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div id="scoreDiv" class="color-purple"></div>
+                <div id="introductionDisplay" style="font-size: 1.0em !important">
+                    <h4>Bienvenido al simulador de exámenes</h4>
+                    <p>
+                        Antes de comenzar, por favor considera las siguientes recomendaciones para asegurar el mejor
+                        desempeño posible:
+                    </p>
+                    <ol>
+                        <li>Lee cuidadosamente cada pregunta. Asegúrate de entender los requerimientos antes de
+                            responder.</li>
+                        <li>Haz uso de papel y lápiz para tomar notas o resolver problemas, esto te ayudará a organizar
+                            tus pensamientos y soluciones.</li>
+                        <li>Elimina cualquier distractor en tu entorno de estudio. Apaga dispositivos electrónicos no
+                            esenciales como televisores y celulares para mantener tu concentración.</li>
+                        <li>Gestiona bien tu tiempo. Distribuye el tiempo de manera efectiva para responder todas las
+                            preguntas sin prisas.</li>
+                        <li>Mantente positivo y enfocado. La actitud es clave en el manejo de la presión durante el
+                            examen.</li>
+                    </ol>
+                    <p>Te deseamos mucho éxito en tu examen. ¡Haz tu mejor esfuerzo!</p>
+                    <button id="startBtn" class="btn waves-effect waves-light right" type="button">
+                        Iniciar Examen
+                        <i class="material-icons left">play_arrow</i>
+                    </button>
+                    <button id="returnBtn" class="btn waves-effect waves-light left" type="button">
+                        Regresar
+                        <i class="material-icons left">arrow_back</i>
+                    </button>
+                </div>
+                <div id="workarea" style="display: none;">
+                    <h4 id="progress-c85361ab-c23e-4425-bb74-c5d1b5453e66" class="">Reactivo 0/0</h4>
+                    <div class="timer">Tiempo transcurrido: <span id="time">00:00:00</span></div>
+                    <div id="questionDisplay"></div>
+                </div>
+            </div>
+            <div class="col s12">
+                <button id="prevBtn" class="btn waves-effect waves-light left" style="display:none;">
+                    Anterior
+                    <i class="material-icons left">arrow_back</i>
+                </button>
+                <button id="nextBtn" class="btn waves-effect waves-light right" style="display:none;">
+                    Siguiente
+                    <i class="material-icons right">arrow_forward</i>
+                </button>
+                <!--<button id="endBtn" class="btn waves-effect waves-light right" style="display:none;">Finalizar Prueba</button>-->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="exitModal" class="modal">
+        <div class="modal-content">
+            <h4 class="font-purple">Confirmar Salida</h4>
+            <p>¿Estás seguro de que quieres abandonar el examen? Todos las respuestas se perderán.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancelar</a>
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat" onclick="abandonExam()">Abandonar</a>
+        </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="assets/js/script.js?v=1.0.1"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems);
+            document.getElementById("returnBtn").addEventListener('click', function(){
+                window.location.href = 'index.html';
+            });
+        });
+
+        // Función para manejar la salida del examen
+        function abandonExam() {
+            console.log("El examen ha sido abandonado.");
+            endTest();
+        }
+    </script>
+</body>
+
+</html>
